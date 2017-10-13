@@ -4,7 +4,7 @@ Weather composite icon font for the site [Getmeteo.me](https://getmeteo.me/)
 
 ## How to use
 
-Set to page `css` file:
+Set to page a `css` file:
 
 ```html
 <link rel="stylesheet" href="./GetMeteoMe.css">
