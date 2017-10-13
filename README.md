@@ -13,10 +13,12 @@ Set to page a `css` file:
 The code you need use:
 
 ```html
-<span class="gmm-fon"></span>
-<span class="gmm-sun"></span>
-<span class="gmm-c-as-x"></span>
-<span class="gmm-c-as-x-r"></span>
+<div stype="position: relative">
+	<span class="gmm-fon"></span>
+	<span class="gmm-sun"></span>
+	<span class="gmm-c-as-x"></span>
+	<span class="gmm-c-as-x-r"></span>
+</div>
 ```
 
 ## Credit
