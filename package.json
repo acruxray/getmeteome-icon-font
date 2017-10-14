@@ -1,0 +1,17 @@
+{
+  "name": "weather-icon-font",
+  "version": "1.0.1",
+  "description": "Weather composite icon font for the site Getmeteo.me",
+  "author": "Nazar Mozol",
+  "license": "MIT License (https://raw.githubusercontent.com/acruxray/weather-icon-font/master/LICENSE)",
+  "repository": "https://github.com/acruxray/weather-icon-font",
+  "homepage": "https://acruxray.github.io/weather-icon-font",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-banner": "^0.6.0",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-connect": "^1.0.2",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-cssmin": "^2.2.1"
+  }
+}
