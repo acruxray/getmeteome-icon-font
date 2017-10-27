@@ -1,4 +1,5 @@
 *.zip
 *.el
+package-lock.json
 el/
 node_modules/

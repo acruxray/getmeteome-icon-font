@@ -22,14 +22,17 @@ module.exports = function(grunt) {
             taskName: {
                 options: {
                     position: 'top',
-                    banner: '/*\n * Weather-icon-font v<%= pkg.version %> (<%= pkg.homepage %>)\n * Copyright 2016-<%= grunt.template.today("yyyy") %> GetMeteoMe (https://getmeteo.me)\n * <%= pkg.license %>\n */',
+                    banner: '/*\n' +
+                            ' * Weather-icon-font v<%= pkg.version %> (<%= pkg.homepage %>)\n' +
+                            ' * Copyright 2016-<%= grunt.template.today("yyyy") %> GetMeteoMe (https://getmeteo.me)\n' +
+                            ' * <%= pkg.license %>\n' +
+                            ' */',
                     linebreak: true
                 },
                 files: {
                     src: [
                         'dist/css/getmeteome.css',
-                        'dist/css/getmeteome.min.css',
-                        'docs/css/getmeteome.css'
+                        'dist/css/getmeteome.min.css'
                     ]
                 }
             }
